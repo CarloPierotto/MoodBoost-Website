@@ -11,10 +11,15 @@ footer{
     width: 100%;
 }
 
+.Allgemein_F div{
+    text-align: center;
+    margin: 10% 0;
+}
+
 .Allgemein_F{
     align-items: center;
     gap: 20px;
-    padding: 3% 0;
+    padding: 2% 0;
 }
 
 .Allgemein_F p{
@@ -23,6 +28,10 @@ footer{
 
 .Kontakt{
     text-align: center;
+}
+
+.Kontakt:link{
+    text-decoration: none;
 }
 
 @media only screen and (min-width: 600px) {
