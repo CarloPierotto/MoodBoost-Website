@@ -1,3 +1,21 @@
 body{
-    background-color: green;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    background-color: #6C5FB1;
+    color: white;
+    padding: 20 px 0; 
+}
+
+.Allgemein_F{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.Kontakt{
+    text-align: center;
 }
