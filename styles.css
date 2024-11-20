@@ -9,13 +9,18 @@ footer{
 }
 
 .Allgemein_F{
-    display: flex;
-    justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
     gap: 20px;
 }
 
 .Kontakt{
     text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+    .Allgemein_F{  
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
 }
