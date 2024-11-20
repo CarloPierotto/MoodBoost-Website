@@ -1,0 +1,9 @@
+/*Allgemeines CSS gültig für alle Seiten*/
+body{
+    font-family: "Outfit", sans-serif;
+}
+
+main{
+    width: 80%;
+    margin: 3% 0 10% 10%;
+}
