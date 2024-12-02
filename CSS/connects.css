@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+}
+
+.person{
+    background-color: var(--white-purple);
+    padding: 5%;
+    margin: 5%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+img{
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.stars{
+    width: 60%;
+}
