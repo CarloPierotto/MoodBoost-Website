@@ -1,6 +1,15 @@
 /*Allgemeines CSS gültig für alle Seiten*/
 :root {
-
+    --white-purple: #e9e5fe;
+    --light-purple: #9c8df4;
+    --purple: #6C5FB1;
+    --gelb: #EDC43D ;
+    --black: #232127;
+    --black75: #5a595d;
+    --black50: #919093;
+    --black15: #dededf;
+    --black10: #e9e9e9;
+    --error: #d46868;
   }
 
 body{
