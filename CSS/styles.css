@@ -104,3 +104,12 @@ nav {
         align-items: center;
     }
 }
+
+/*Footer*/
+a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color: #e9e5fe;
+}
