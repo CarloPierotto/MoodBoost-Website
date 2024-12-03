@@ -1,17 +1,31 @@
+.Testimonials{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .person{
   background-color: var(--black10);
   padding: 5%;
   text-align: center;
   border-radius: 15px;
-}
+  max-width: 300px;
+  min-width: 200px;
+  margin: 2%;
+} 
 
 .person img {
-  flex: 1 1 calc(33.333% - 20px);
-  max-width: 100%;
   height: auto;
+  width: 100%;
+  margin-bottom: 4%;
 }
 
-main img{
+.main{
+  width: 80%;
+    margin: 3% 0 10% 10%;
+}
+
+.main img{
   width: 100%;
   margin-bottom: 4%;
 }
@@ -23,53 +37,4 @@ main img{
 
 .stars{
     width: 60%;
-}/* Flexbox-Container für die Testimonials */
-.container {
-    display: flex; /* Flexbox aktivieren */
-    flex-wrap: wrap; /* Zeilenumbruch, wenn kein Platz mehr vorhanden ist */
-    justify-content: space-around; /* Abstand zwischen den Elementen */
-    gap: 20px; /* Abstand zwischen den Elementen */
-    padding: 20px; /* Außenabstand */
-  }
-  
-  /* Einzelne Testimonial-Karten */
-  .person {
-    width: 300px; /* Feste Breite */
-    text-align: center; /* Zentriert den Inhalt */
-    border: 1px solid #ddd; /* Leichter Rahmen */
-    border-radius: 8px; /* Abgerundete Ecken */
-    padding: 10px; /* Innenabstand */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Leichter Schatten */
-  }
-  
-  /* Bilder in den Testimonials */
-  .imgperson {
-    width: 100%; /* Breite an die Karte anpassen */
-    height: auto; /* Proportional skalieren */
-    border-radius: 50%; /* Rundes Bild */
-    margin-bottom: 10px;
-  }
-  
-  /* Sterne-Bewertungen */
-  .stars {
-    width: 80px; /* Größe der Sterne */
-    height: auto;
-    margin: 5px 0;
-  }
-  
-  /* Name */
-  .name {
-    font-size: 1.2em;
-    font-weight: bold;
-    margin: 10px 0;
-  }
-  
-  /* Text der Bewertung */
-  .person p {
-    font-size: 0.9em;
-    color: #555;
-  }
-
-  .testimonials{
-    display:flex;
-  }
+}
