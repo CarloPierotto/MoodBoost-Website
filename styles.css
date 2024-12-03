@@ -27,7 +27,7 @@
 
 .main{
   width: 80%;
-    margin: 3% 0 0% 10%;
+  margin: 3% 0 0 10%;
 }
 
 .main img{
@@ -79,8 +79,13 @@ hr{
   background-color: #6C5FB1 ;
 }
 
-.Action {
+.Action{
   right: 0;
-  bottom: 0;
-  margin-bottom: 0;
+  width: 100%;
+}
+
+.downloadtext{
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 10%;
 }
