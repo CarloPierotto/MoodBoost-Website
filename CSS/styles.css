@@ -3,7 +3,7 @@
     --white-purple: #e9e5fe;
     --light-purple: #9c8df4;
     --purple: #6C5FB1;
-    --gelb: #EDC43D ;
+    --yellow: #EDC43D ;
     --black: #232127;
     --black75: #5a595d;
     --black50: #919093;
@@ -17,7 +17,6 @@ body{
     font-size: 18px;
     margin: 0;
     padding: 0;
-    background-color: #E9E5FE;
 }
 
 main{
