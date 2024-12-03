@@ -3,7 +3,7 @@
     --white-purple: #e9e5fe;
     --light-purple: #9c8df4;
     --purple: #6C5FB1;
-    --gelb: #EDC43D ;
+    --yellow: #EDC43D ;
     --black: #232127;
     --black75: #5a595d;
     --black50: #919093;
@@ -75,6 +75,14 @@ header {
     background-color: white;
 }
 
+.headercontent{
+    padding: 0;
+    width: 90%;
+    margin-left: 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
 header div {
     display: flex; 
 }
@@ -92,7 +100,6 @@ nav {
 
 .nav_links{
     list-style: none;
-    flex: 1; 
     display: none;  
     flex-direction: column;
     justify-content: center;
@@ -112,7 +119,7 @@ nav {
 }
 
 #check:checked ~ .nav_links {
-    display: block;
+    display: flex;
    }
 
 #check{
@@ -132,7 +139,7 @@ nav {
     padding: 0 20px; 
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 800px) {
     .Allgemein_F{  
         display: flex;
         justify-content: space-around;
@@ -146,6 +153,7 @@ nav {
         position: static;
         width: auto;
         background-color: transparent;
+        justify-content: end;
     }
     nav input{
         display: none;
@@ -157,5 +165,9 @@ nav {
     .nav_links li{
         margin-bottom: 0;
         font-size: auto;
+    }
+
+    nav{
+        flex: 1; 
     }
 }
