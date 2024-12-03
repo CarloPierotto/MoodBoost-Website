@@ -74,6 +74,14 @@ header {
     background-color: white;
 }
 
+.headercontent{
+    padding: 0;
+    width: 90%;
+    margin-left: 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
 header div {
     display: flex; 
 }
@@ -84,18 +92,32 @@ header div img {
 
 nav {
     display: flex;
-    margin-left: 40px; 
+    margin-left: 40px;
+    align-items: center;
+    position: relative;
 }
 
-.nav_links {
-    justify-content: space-between; 
+.nav_links{
     list-style: none;
-    flex: 1; 
-    display: none;
+    display: none;  
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 100%;
+    right: 50%;
+    background-color: white;
+    width: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+
+.nav_links li{
+    margin-bottom: 15px;
+    font-size: 20px;
 }
 
 #check:checked ~ .nav_links {
-    display: block;
+    display: flex;
    }
 
 #check{
@@ -115,7 +137,7 @@ nav {
     padding: 0 20px; 
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 800px) {
     .Allgemein_F{  
         display: flex;
         justify-content: space-around;
@@ -124,11 +146,26 @@ nav {
     }
     .nav_links{
         display: flex;
+        flex-direction: row;
+        box-shadow: none;
+        position: static;
+        width: auto;
+        background-color: transparent;
+        justify-content: end;
     }
     nav input{
         display: none;
     }
     .checkbtn{
         display: none;
+    }
+
+    .nav_links li{
+        margin-bottom: 0;
+        font-size: auto;
+    }
+
+    nav{
+        flex: 1; 
     }
 }
