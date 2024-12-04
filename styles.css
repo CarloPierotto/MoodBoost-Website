@@ -79,15 +79,30 @@ hr{
   background-color: #6C5FB1 ;
 }
 
+.download {
+  position: relative;
+}
+
 .Action{
   right: 0;
   width: 100%;
 }
 
-.downloadtext{
+.donwloadinfo {
+  display: flex;
+  flex-direction: column;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
   position: absolute;
-  margin-top: 15%;
-  margin-left: 10%;
+}
+
+.DownloadButton{
+  width: 40%;
+  margin-right: 5%;
+}
+
+.downloadtext{
   text-align: left;
   font-size: 18px;
 }
@@ -104,6 +119,6 @@ hr{
 }
 @media (min-width: 1100px) {
   .downloadtext {
-    font-size: 50px;
+    font-size: 70px;
   }
 }
