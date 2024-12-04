@@ -1,5 +1,7 @@
-*{
-    margin: 0;
+.divmaincontent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .person{
@@ -8,6 +10,9 @@
     margin: 5%;
     text-align: center;
     border-radius: 15px;
+    max-width: 300px;
+    min-width: 200px;
+    margin: 2%;
 }
 
 main img{

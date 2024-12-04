@@ -72,6 +72,7 @@ header {
     justify-content: space-between;
     padding: 16px 40px; 
     background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
 }
 
 .headercontent{
@@ -101,14 +102,13 @@ nav {
     list-style: none;
     display: none;  
     flex-direction: column;
-    justify-content: center;
+    align-items: end;
     position: absolute;
     top: 100%;
     right: 50%;
     background-color: white;
     width: auto;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    align-items: center;
 }
 
 .nav_links li{
@@ -153,6 +153,11 @@ nav {
         background-color: transparent;
         justify-content: end;
     }
+
+    .nav_links{
+        white-space: nowrap;
+    }
+
     nav input{
         display: none;
     }
@@ -163,9 +168,5 @@ nav {
     .nav_links li{
         margin-bottom: 0;
         font-size: auto;
-    }
-
-    nav{
-        flex: 1; 
     }
 }
