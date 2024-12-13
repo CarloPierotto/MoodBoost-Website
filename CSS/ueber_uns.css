@@ -71,6 +71,10 @@ img{
     display: none; /* Hide both by default */
 }
 
+#UeberUns{
+    border-bottom: var(--purple) 5px solid;
+}
+
 /* Show only the desktop image on larger screens */
 @media (min-width: 600px) {
     .values_phone img{

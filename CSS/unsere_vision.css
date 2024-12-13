@@ -1,5 +1,9 @@
 h2{color: #6C5FB1;}
-img{
+.Bild-Vision{
     width: 23%;
     height: auto;
+}
+
+#Vision{
+    border-bottom: var(--purple) 5px solid;
 }

@@ -15,10 +15,11 @@ main{
 .BackgroundImage{
     position: absolute;
     right: 0;
-    top: 0;
+    top: 88px;
     width: 50%;
     max-width: 800px;
     object-fit: scale-down;
+    
 }
 
 .download-container {
@@ -38,6 +39,10 @@ main{
     grid-template-columns: auto auto;
     gap: 25px;
     justify-content: left;
+}
+
+#Download{
+    border-bottom: var(--purple) 5px solid;
 }
 
 @media (max-width: 800px) { 
