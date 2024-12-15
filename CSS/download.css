@@ -1,25 +1,29 @@
-.main-content{
+.main-content {
     display: flex;
+    flex-direction: column;
     margin-left: 10%;
-    font-size: 30px;
+    font-size: 20px;
 }
 
-main{
+main {
     margin-top: 15%;
 }
 
-.left-column{
-    width: 40%;
+.left-column {
+    width: 80%;
 }
 
-.BackgroundImage{
-    position: absolute;
-    right: 0;
-    top: 88px;
-    width: 50%;
-    max-width: 800px;
+.BackgroundImage {
+    position: relative;
+    width: 100%;
+    top: 0px;
     object-fit: scale-down;
-    
+}
+
+.divBackgroundImage {
+    display: flex;
+    justify-content: end;
+    margin-top: 5%;
 }
 
 .download-container {
@@ -41,28 +45,32 @@ main{
     justify-content: left;
 }
 
-#Download{
+#Download {
     border-bottom: var(--purple) 5px solid;
 }
 
-@media (max-width: 800px) { 
+@media (min-width: 800px) {
     .main-content {
-        flex-direction: column;
-        font-size: 20px;
+        flex-direction: row;
+        margin-left: 10%;
+        font-size: 30px;
     }
 
-    .divBackgroundImage{
-        display: flex;
-        justify-content: end;
-        margin-top: 5%;
+    .left-column {
+        width: 40%;
     }
 
-    .BackgroundImage { 
-        position: relative;
-        width: 100%;
+    .BackgroundImage {
+        position: absolute;
+        right: 0;
+        top: 89;
+        width: 50%;
+        max-width: 800px;
     }
 
-    .left-column{
-        width: 80%;
+    .divBackgroundImage {
+        display: block;
+        justify-content: normal;
+        margin-top: 0;
     }
 }

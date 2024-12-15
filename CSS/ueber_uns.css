@@ -14,7 +14,6 @@
 
 img{
     width: 100%;
-    margin-bottom: 4%;
 }
 
 .personcontainer{
@@ -39,7 +38,7 @@ img{
 
 .Name{
     margin-bottom: 1%;
-    margin-top: 2%;
+    margin-top: 6%;
     font-size: 160%;
     color: var(--purple);
     text-align: center;
@@ -67,8 +66,13 @@ img{
     margin-top: 60px;
 }
 
-.values_computer img {
+.values_computer{
     display: none; /* Hide both by default */
+}
+
+.values_phone{
+    margin: 0;
+    padding: 0
 }
 
 #UeberUns{
@@ -77,11 +81,11 @@ img{
 
 /* Show only the desktop image on larger screens */
 @media (min-width: 600px) {
-    .values_phone img{
+    .values_phone{
         display: none;
     }
 
-    .values_computer img{
+    .values_computer{
         display: block;
     }
 }
