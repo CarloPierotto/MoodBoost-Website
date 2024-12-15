@@ -28,3 +28,7 @@ main img{
 .stars{
     width: 60%;
 }
+
+#Testimonials{
+    border-bottom: var(--purple) 5px solid;
+}

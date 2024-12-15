@@ -17,6 +17,7 @@
   max-width: 300px;
   min-width: 200px;
   margin: 2%;
+  overflow-wrap: break-word;
 } 
 
 .person img {
@@ -86,10 +87,10 @@ hr{
   width: 100%;
 }
 
-.donwloadinfo {
+.downloadinfo {
   display: flex;
   flex-direction: column;
-  top: 50%;
+  top: 20%;
   left: 10%;
   transform: translateY(-50%);
   position: absolute;
@@ -102,7 +103,7 @@ hr{
 
 .downloadtext{
   text-align: left;
-  font-size: 18px;
+  font-size: 30px;
 }
 
 #Home{
@@ -138,6 +139,10 @@ hr{
     width: 400px;
     margin: 10 auto;
     display: block;
+  }
+
+  .downloadinfo{
+    top: 20%;
   }
 }
 @media (min-width: 900px) {
