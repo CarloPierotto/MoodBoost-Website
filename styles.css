@@ -58,7 +58,12 @@ button {
   align-items: center
 }
 
-h1{
+h2{
+  text-align: center;
+  margin-top: 8%;
+}
+
+h3{
   text-align: center;
 }
 
@@ -143,6 +148,10 @@ hr{
 
   .downloadinfo{
     top: 50%;
+  }
+
+  h3{
+    font-size: 30px;
   }
 }
 @media (min-width: 900px) {
